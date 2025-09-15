@@ -13,7 +13,12 @@ internal class Program
         Console.WriteLine("* Вариант 0                                                               *");
         Console.WriteLine("* Выполнил: Батогов Роман Константинович | АСОиУб-25-1                    *");
         Console.WriteLine("***************************************************************************");
-
+        Console.WriteLine("* УСЛОВИЕ:                                                                *");
+        Console.WriteLine("* Написать консольную программу на C#, которая суммирует значения двух    *");
+        Console.WriteLine("* одинаковых массивов по длине.                                           *");
+        Console.WriteLine("*                                                                         *");
+        Console.WriteLine("*  ИСХОДНЫЕ ДАННЫЕ:                                                       *");
+        Console.WriteLine("*                                                                         *");
 
         int[] ArrayNums1 = { 1, 2, 3, 4, 5 };
         Console.WriteLine("Значение элементов массива №1");
@@ -31,8 +36,9 @@ internal class Program
             Console.Write(ArrayNums2[i] + ",");
         }
         Console.WriteLine();
-
-        Console.WriteLine("Результат");
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+        Console.WriteLine("***************************************************************************");
         if (ArrayNums1.Length == ArrayNums2.Length)
         {
             int[] resultArray = DataService.AddArrays(ArrayNums2, ArrayNums1);
