@@ -1,11 +1,14 @@
 ﻿internal class Program
 {
-    private static void Main(string[] args)
+    static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-        string name = 'Роман';
+
+        string name = "Роман";
         int age = 18;
-        Console.WriteLine('Здравствуйте, меня зовут' + name + ', мне' + age + 'лет!');
+
+        Console.WriteLine("Здравствуйте, меня зовут" + name + ", мне" + age + "лет!");
+
         Console.ReadKey();
     }
 }
